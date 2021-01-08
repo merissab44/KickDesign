@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+        <!-- BOOTSTRAP CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <!-- MY CSS -->
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+
+    <body>
+      <!-- NAVIGATION -->
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">Politeach</a>
+      
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shoes.html">Shoes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Candidate.html">Candidate</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Jumbotron -->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4 text-center">Be the Change.</h1>
+        </div>
+      </div>
+      <!--Most popular or recent news article -->
+      <section id="news">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="container">
+              <div class="halfCircle"></div>
+            </div>
+          </div>
+          <div class="col-md-6 .offset-md-4">
+            <div class="container">
+              <div class="news-article">
+                <div class="news-info">
+                  <h2>BLM protests Across the country</h2>
+                  <h5>Civic unrest following police brutality</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque accusantium eligendi facere quod dolores amet laboriosam qui labore error aut sapiente quasi, illum libero dignissimos quidem! Officiis quod expedita fuga.</p>
+                  <button type="button" class="btn btn-primary">Learn More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Cards with news articles -->
+      <section id="news-cards">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <div class="candidate">
+                <div class="news-img">
+                    <img src="./styles/images/enough.jpeg" alt="Woman holding protest sign enough" style="width: 350px; height: 250px;">
+                </div>
+                <div class="news-card">
+                    <div class="news-content">
+                        <h2>Civil Unrest</h2>
+                        <h4>People all over the world have had enough of the racial injustice in the police force.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque accusantium eligendi facere quod dolores amet laboriosam qui labore error aut sapiente quasi, illum libero dignissimos quidem! Officiis quod expedita fuga.</p>
+                        <button type="button" class="btn btn-secondary">Learn More</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <div class="candidate">
+                <div class="news-img">
+                    <img src="./styles/images/immigrant.jpeg" alt="Woman holding protest sign enough" style="width: 350px; height: 250px;">
+                </div>
+                <div class="news-card">
+                    <div class="news-content">
+                        <h2>Immigration</h2>
+                        <h4>How has immigration changed in the last few years and how does it affect the economy.</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere possimus ea, nobis ex sint quam, expedita fuga quibusdam nesciunt ut aliquid, eligendi ab. Cumque voluptatum fugit aut eaque officiis ipsam.</p>
+                        <button type="button" class="btn btn-secondary">Learn More</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <div class="candidate">
+                <div class="news-img">
+                    <img src="./styles/images/voting.jpeg" alt="Woman holding protest sign enough" style="width: 350px; height: 250px;">
+                </div>
+                <div class="news-card">
+                    <div class="news-content">
+                        <h2>Voter Fraud</h2>
+                        <h4>There are debates on whether this election was rigged.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque accusantium eligendi facere quod dolores amet laboriosam qui labore error aut sapiente quasi, illum libero dignissimos quidem! Officiis quod expedita fuga.</p>
+                        <button type="button" class="btn btn-secondary">Learn More</button>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Contact Form -->
+      <section id="contact">
+        <div class="container">
+          <div class="row text-white">
+              <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-center form p-4">
+                  <h1 class="display-4 py-2 text-truncate">Contact Us!</h1>
+                  <div class="px-2">
+                      <form action="" class="justify-content-center">
+                          <div class="form-group">
+                              <label class="sr-only">Name</label>
+                              <input type="text" class="form-control" placeholder="Name">
+                          </div>
+                          <div class="form-group">
+                              <label class="sr-only">Email</label>
+                              <input type="text" class="form-control" placeholder="Enter email address">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message Us</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                          <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                      </form>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    </body>
+</html>

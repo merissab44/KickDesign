@@ -50,10 +50,12 @@ section{
     background-color: #6c757d;
 }
 .btn,.btn-primary{
+    width: 150px;
+    height: 50px;
     background-color: #121b1e;
     color: white;
     border: none;
-    margin-left: 20%;
+    margin-left: 40%;
 }
 #contact{
     margin-top: 0;
@@ -82,6 +84,7 @@ label{
 }
 img, svg{
     width: 50%;
+    margin-left: 20%;
 }
 #contact{
     color: white;

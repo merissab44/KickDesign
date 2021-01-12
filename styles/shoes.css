@@ -53,6 +53,7 @@ section{
     background-color: #121b1e;
     color: white;
     border: none;
+    margin-left: 20%;
 }
 #contact{
     margin-top: 0;
@@ -84,4 +85,8 @@ img, svg{
 }
 #contact{
     color: white;
+}
+.containter{
+    width: 70%;
+    height: 75%;
 }

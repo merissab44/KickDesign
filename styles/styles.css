@@ -42,8 +42,8 @@ body{
     margin-top: 20px;
     margin-bottom: 50px;
 }
-section{
-    margin-bottom: 10px;
+section, h1{
+    margin-bottom: 30px;
 }
 
 #custom-tip{
@@ -61,11 +61,6 @@ section{
     background-color: white;
     color: rgb(18, 27, 30);
     border: none;
-}
-#contact{
-    margin-top: 0;
-    margin-bottom: 15%;
-    color: white;
 }
 .mb-3{
     width: 50%;
@@ -90,6 +85,6 @@ label{
 img, svg{
     width: 50%;
 }
-#contact{
-    color: white;
+#p{
+    text-align: left;
 }
